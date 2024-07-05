@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="">
+        <center>
+            <h1>INPUT FIELD</h1>
+            <input type="text"><br>
+            <input type="password"><br>
+            <input type="number"><br>
+            <input type="color"><br>
+            <input type="time"><br>
+            <input type="date">
+        </center>
+        <hr>
+        <center>
+
+            <h1>lables and placeholders</h1>
+            <label for="Username">Username: </label><!--label for and input id should be same-->
+            <input type="text" id="Username" placeholder="user name"><br><br>
+
+
+            <label for="password">Password: </label>
+            <input type="password" id="password" placeholder="password"><br><br>
+
+
+            <button type="submit">Submit</button>
+        </center>
+        <hr>
+
+        <center>
+            <h1>checkbox</h1>
+            <label for="age">Age</label>
+            <input type="checkbox" id="age">
+
+            <label for="age">Gender</label>
+            <input type="checkbox" id="age" checked>
+
+        </center>
+        <hr>
+        <center>
+            <h1>radio buttons</h1>
+
+            <label for="gender">Male</label>
+            <input type="radio" name="gender">
+
+            <label for="gender">Female</label>
+            <input type="radio" name="gender">
+        </center>
+        <hr>
+        <center>
+            <label for="volume"></label>
+            <input type="range" min="0" max="100" step="20" value="80">
+        </center>
+        <hr>
+        <center>
+            <textarea rows="20" cols="30"></textarea><br><br>
+        </center>
+        <hr>
+        <center>
+            <label for="cars">Choose a car:</label>
+
+            <select name="cars" id="cars">
+                <option value="volvo">BMW</option>
+                <option value="saab">Lamborghini</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+        </center>
+    </form>
+</body>
+
+</html>

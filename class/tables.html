@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <table border="5">
+        <thead>
+            <th colspan="5">G25 TIME TABLE</th>
+        </thead>
+        <tr>
+            <td>days/lecture</td>
+            <td>Lecture 1</td>
+            <td>Lecture 2</td>
+            <td>Lecture 3</td>
+            <td>Lecture 4</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>FEE</td>
+            <td>OOPS</td>
+            <td rowspan="2">DBMS</td><!--next table data has to be removed to prevent overflow-->
+            <td>CN</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>DS</td>
+            <td>CN</td>
+            <td>OOPS</td>
+        </tr>
+        <tr>
+            <td>WEDNESDAY</td>
+            <td>DS</td>
+            <td rowspan="2">OOPS</td>
+            <td>DBMS</td>
+            <td>CN</td>
+        </tr>
+        <tr>
+            <td>THURSDAY</td>
+            <td>DBMS</td>
+            <td>FEE</td>
+            <td>CN</td>
+        </tr>
+        <tr>
+            <td>FRIDAY</td>
+            <td colspan="2" ><center>DS</center></td><!--same tr mei se ek last td remove-->
+            <td>DBMS</td>
+            <td>CN</td>
+        </tr>
+        
+
+    </table>
+</body>
+</html>
