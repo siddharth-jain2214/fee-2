@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css">
+    <title>Form CSS</title>
+</head>
+
+<body>
+    <form>
+        <h1>JOB APPLICATION FORM</h1>
+
+        <input type="checkbox" checked>
+        <label for="E_mail">Email Address : </label>
+        <input type="email" id="E_mail" placeholder="Email address" required><br><br>
+
+        <label for="first_name">First name : </label>
+        <input type="text" id="first_name" placeholder="First Name" required><br><br>
+
+        <label for="last_name">Last name : </label>
+        <input type="text" id="last_name" placeholder="Last Name" required><br><br>
+
+        <label for="father's_name">Father's Name : </label>
+        <input type="text" id="father's_name" placeholder="Father's Name" required><br><br>
+
+        <label for="dob">Date of birth : </label>
+        <input type="date" id="dob" required><br><br>
+
+        <label for="address">Address : </label><br>
+        <textarea name="address" id="address" placeholder="Enter your address" rows="10" cols="50"
+            required></textarea><br><br>
+
+        <label for="mob">Mobile Number : </label>
+        <select required>
+            <option value="mob">+91</option>
+            <option value="mob">+12</option>
+            <option value="mob">+56</option>
+            <option value="mob">+20</option>
+            <option value="mob">+23</option>
+        </select>
+        <input type="text" id="mob" placeholder="Mobile Number" required><br><br>
+
+        <label for="new">Gender : </label>
+
+        <input type="radio" name="gender">
+        <label for="gender">Male</label>
+
+        <input type="radio" name="gender">
+        <label for="gender">Female</label>
+
+        <input type="radio" name="gender">
+        <label for="gender">Others</label><br><br>
+
+        <label for="nation">Nationality : </label>
+        <select name="nation" id="nation">
+            <option value="1">India</option>
+            <option value="2">America</option>
+            <option value="3">Korea</option>
+            <option value="4">Russia</option>
+            <option value="5">Australia</option>
+            <option value="6">South Africa</option>
+            <option value="7">Canada</option>
+        </select><br><br>
+
+        <label for="new">Skills : </label>
+
+        <input type="checkbox" name="skills">
+        <label for="skills">Machine Learning</label>
+
+        <input type="checkbox" name="skills">
+        <label for="skills">Artificial Intelligence</label>
+
+        <input type="checkbox" name="skills">
+        <label for="skills">Data Science</label>
+
+        <input type="checkbox" name="skills">
+        <label for="skills">Software Developmnet</label>
+
+        <input type="checkbox" name="skills">
+        <label for="skills">Cloud Computing</label>
+
+        <input type="checkbox" name="skills">
+        <label for="skills">Cyber Security</label>
+
+        <input type="checkbox" name="skills">
+        <label for="skills">Front end</label>
+
+        <input type="checkbox" name="skills">
+        <label for="skills">Backend</label>
+
+        <input type="checkbox" name="skills">
+        <label for="skills">MERN</label>
+
+        <input type="checkbox" name="skills">
+        <label for="skills">DBMS</label>
+
+        <br><br>
+
+        <label for="exp">Years of experience : </label>
+        <select name="exp" id="exp">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6 or more</option>
+        </select>
+        <hr>
+        <h1>EDUCATIONAL QUALIFICATIONS</h1>
+
+        <label for="education">QUALIFICATIONS : </label>
+        <input type="checkbox" name="edu">
+        <label for="edu">Matriculation</label>
+
+        <input type="checkbox" name="edu">
+        <label for="edu">Pre-University</label>
+
+        <input type="checkbox" name="edu">
+        <label for="edu">B.TECH CSE</label>
+
+        <input type="checkbox" name="edu">
+        <label for="edu">BSC</label>
+
+        <input type="checkbox" name="edu">
+        <label for="edu">Value added courses</label>
+
+        <br><br>
+
+        <label for="upload10">Upload Matric Cerificate : </label>
+        <input type="file" required><br><br>
+
+        <label for="upload12">Upload 12th Cerificate : </label>
+        <input type="file" required><br><br>
+
+        <label for="upload10">Upload your Resume : </label>
+        <input type="file" required><br><br>
+
+        <center>
+            <button type="submit">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="reset">Reset</button>
+        </center>
+    </form>
+</body>
+
+</html>
