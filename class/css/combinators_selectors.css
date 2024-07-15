@@ -1,0 +1,26 @@
+/*descendant selectors*/
+
+ul li a
+{
+    color: cornflowerblue;
+}
+
+/*child combinator selector*/
+ol > li/*immediate after child will be changed*/
+{
+    background-color: yellow;
+}
+
+/*adjacent combinator selector(downward ajacent)*/
+
+h3+p
+{
+    border-top: 2px solid brown;
+}
+
+/*general siblings(after div all p will be styled)*/
+
+div~p{
+    background-color: green;
+}
+

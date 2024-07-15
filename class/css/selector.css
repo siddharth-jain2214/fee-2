@@ -1,0 +1,42 @@
+/*Universal selector*/
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: red;
+}
+
+/*Id selector(id is unique for different things)*/
+
+#superheroes
+{
+    background-color: black;
+    color: aqua;
+    text-align: center;
+}
+
+/*class selector(may be used same for different things*/
+
+.super
+{
+    color: green;
+    font-weight: 900;
+}
+
+/*element selector(selects a tag)*/
+
+h1{
+    color: blue;
+    text-decoration: line-through;
+}
+
+/*attribute selector*/
+
+input[type="text"]
+{
+    background-color: orange;
+}
+
+input[type="password"]
+{
+    background-color: green;
+}
