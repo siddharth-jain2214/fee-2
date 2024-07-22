@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        section{
+            border: 2px solid black;
+            padding: 1rem;
+        }
+        h1{
+            font-size: 3rem;
+        }
+
+        /*Media queries*/
+
+        @media(max-width: 520px)
+        {
+            section{
+                background-color: orange;
+            }
+        }
+
+        @media(orientation:landscape)
+        {
+            section p{
+                background-color: brown;
+            }
+        }
+
+        @media(orientation:portrait)
+        {
+            section p{
+                background-color: aqua;
+                font-weight: 800;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>LEARNING ABOUT THE MEDIA QUERIES</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique debitis quam assumenda, repellendus
+            consequatur illum eos ab fuga. Inventore voluptatum repellat ipsum dolore, repellendus sed nobis quibusdam a
+            praesentium iusto. Corporis omnis aperiam quo dolorem, temporibus id saepe ad perspiciatis, maiores eveniet
+            voluptatum fuga nulla. Non labore iure laboriosam atque.
+        </p>
+    </section>
+
+
+</body>
+
+</html>
