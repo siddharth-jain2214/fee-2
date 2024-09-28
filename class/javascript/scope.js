@@ -36,3 +36,12 @@ myfun(8,3);
 
 console.log(ab);
 
+//block scope
+{
+    var qw=34;
+    var b=45;
+    var qe=23;
+
+}
+
+
