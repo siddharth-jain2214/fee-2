@@ -1,0 +1,15 @@
+.product{
+    width: 400px;
+    border: 5px solid black;
+    height: 390px;
+}
+
+.product img{
+    width: 400px;
+    height: 250px;
+    border-bottom: 2px solid grey;
+}
+
+.product h1,h2{
+    text-align: center;
+}
